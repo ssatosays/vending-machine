@@ -1,0 +1,26 @@
+@startuml
+
+/' Default Style
+'/
+
+scale 1
+skinparam DefaultFontName メイリオ
+skinparam shadowing false
+
+/' Title
+'/
+
+title 自動販売機のアクティビティ図_v1
+
+/' Activity Diagram
+'/
+
+(*) --> "First Activity"
+
+"First Activity" --> "Second Activity"
+
+"Second Activity" --> (*)
+
+"First Activity" --> (*)
+
+@enduml
