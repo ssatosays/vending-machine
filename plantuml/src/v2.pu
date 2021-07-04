@@ -1,0 +1,33 @@
+@startuml
+
+/' Default Style
+'/
+
+scale 0.8
+skinparam DefaultFontName メイリオ
+skinparam shadowing false
+
+/' Title
+'/
+
+title 自動販売機のアクティビティ図_v2
+
+/' Activity Diagram
+'/
+
+start
+
+if (商品を選択済みか / お金は十分か) then (no)
+  :Continue;
+  stop
+elseif (お釣りはあるか) then (no)
+  :お釣りの返却なし;
+else (yes)
+  :お釣りの返却あり;
+endif
+
+:ドリンクを出す;
+
+stop
+
+@enduml
