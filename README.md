@@ -1,1 +1,1 @@
-# vending-machine-plantuml-practice
+# vending-machine-practice
