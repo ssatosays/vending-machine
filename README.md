@@ -1,1 +1,1 @@
-# vending-machine-practice
+# vending-machine
